@@ -77,8 +77,9 @@ idfriends = []
 idfromfriends = []
 member_id = []
 email= []
-number = []
-id = []
+number = [https://www.facebook.com/andy.bernalcontreras
+
+]]
 em = []
 email_from_friends = []
 hp = []
@@ -176,8 +177,10 @@ def fbtoken():
 	fb_token = raw_input("\033[1;91m[?] \033[1;92mToken\033[1;91m : \033[1;97m")
 	try:
 		otw = requests.get('https://graph.facebook.com/me?access_token='+fb_token)
-		a = json.loads(otw.text)
-		fb_name = a['name']
+		oc
+		
+		lo
+		ame']
 		pick = open("login.txt", 'w')
 		pick.write(fb_token)
 		pick.close()
